@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <h2>Todo List</h2>
+            <div class="input-wrapper">
+                <input value="" class="input" type="text"/>
+                <button class="add">
+                    Add
+                </button>
+            </div>
+            <div class="tasks-list-wrapper">
+                <ul class="tasks-list">
+                    <!-- <div class="task">
+                        <input type="checkbox" class="done-btn"/>
+                        <li class="task-detail">${this.tasksList.slice(-1)}</li>
+                        <div class="btns">
+                            <input type="checkbox" class="prio-btn"/>
+                            <span class="options">
+                                <i class="fas fa-caret-down"></i>
+                                <div class="editremove">
+                                    <i class="fas fa-trash remove"></i>
+                                    <i class="fas fa-edit edit"></i>
+                                </div>
+                            </span>
+                        </div>     
+                    </div> -->
+                </ul>
+            </div>
+            <div class="done-tasks-list-wrapper">
+                <ul class="done-tasks-list">
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
